@@ -1,0 +1,54 @@
+.contact{
+  margin-left: 10%;
+  margin-top: 10%;
+}
+.conimg{
+  float: left;
+  margin-right: 5%;
+}
+
+.contactdet{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.head{
+  text-align: center;
+  font-size: 250%;
+  color: #001E6C;
+}
+input,textarea{
+  width: 50%;
+  padding: 12px;
+  border: 1px inset #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+.btn {
+  background: #001E6C;
+  background-image: -webkit-linear-gradient(top, #001E6C, #363062);
+  background-image: -moz-linear-gradient(top, #001E6C, #363062);
+  background-image: -ms-linear-gradient(top, #001E6C, #363062);
+  background-image: -o-linear-gradient(top, #001E6C, #363062);
+  background-image: linear-gradient(to bottom, #001E6C, #363062);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #363062;
+  background-image: -webkit-linear-gradient(top, #363062, #001E6C);
+  background-image: -moz-linear-gradient(top, #363062, #001E6C);
+  background-image: -ms-linear-gradient(top, #363062, #001E6C);
+  background-image: -o-linear-gradient(top, #363062, #001E6C);
+  background-image: linear-gradient(to bottom, #363062, #001E6C);
+  text-decoration: none;
+}
